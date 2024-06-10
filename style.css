@@ -1,0 +1,239 @@
+/* MAIN COLOR: #51cf66 */
+/* gray: #343a40 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #343a40;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 85px;
+}
+
+.grid-2-cols {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 85px;
+
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 45px;
+
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #69db7c;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 999px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #51cf66;
+}
+
+/* HEADER STYLING */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 120px;
+  padding: 10px;
+
+  color: #adb5bd;
+  background-color: #343a40;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+h1 {
+  color: #fff;
+  margin-left: -130px;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+/* DESCRIPTION STYLING */
+
+.intro-section {
+  margin-bottom: 120px;
+}
+
+.intro-section p {
+  margin-bottom: 40px;
+}
+
+.intro-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.btn-big {
+  padding: 10px 24px;
+  font-size: 24px;
+}
+
+/* FEATURES DESIGN */
+.feature-section {
+  margin-bottom: 120px;
+}
+
+.features-title {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.feature-icon {
+  width: 32px;
+  height: 32px;
+  stroke: #69db7c;
+  margin-bottom: 22px;
+}
+
+/* TESTIMONIAL DESIGN */
+
+.testimonial-section {
+  background-color: #69db7c;
+  padding: 16px 24px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.testimonial-photo {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.testimonial-box {
+  margin-top: 24px;
+  grid-column: 2 / 4;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  margin-bottom: 24px;
+}
+
+.testimonial-author {
+  font-size: 16px;
+  color: #495057;
+}
+
+/* MOST BUYED DESIGN */
+
+.toaster {
+  box-shadow: 0px 20px 20px rgba(52, 58, 64, 0.201);
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.toaster-img {
+  height: 325px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.toaster-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.toaster-list li:last-child {
+  margin-bottom: 32px;
+}
+
+.toaster-list svg {
+  stroke: #69db7c;
+  margin-right: 12px;
+}
+
+.toaster-box {
+  padding: 22px;
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.toaster-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 20px;
+}
+
+.btn-small {
+  padding: 10px 5px;
+}
+
+/* FOOTER */
+
+footer {
+  color: #adb5bd;
+  margin-bottom: 40px;
+}

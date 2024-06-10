@@ -1,0 +1,265 @@
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    margin-bottom: 75px;
+  }
+
+  body {
+    margin: 0 10px;
+  }
+
+  .links {
+    display: none;
+  }
+  h1 {
+    margin: 0;
+  }
+
+  .grid-2-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0px;
+  }
+
+  .grid-3-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0px;
+  }
+
+  .feature-section {
+    margin-bottom: 70px;
+  }
+
+  .testimonial-section {
+    margin: 0 10px;
+    grid-row: 2 / span 3;
+    grid-column: 1 / 2;
+    margin-bottom: 75px;
+  }
+
+  .testimonial-photo {
+    grid-row: 1;
+  }
+
+  .testimonial-img {
+    width: 400px;
+    height: 100%;
+  }
+
+  .testimonial-box {
+    grid-row: 2 / span 4;
+    grid-column: 1/ 2;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 75px;
+  }
+
+  body {
+    margin: 0 25px;
+  }
+
+  .links {
+    display: none;
+  }
+  h1 {
+    margin: 0;
+  }
+
+  .grid-2-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 1fr;
+    column-gap: 0px;
+  }
+
+  .grid-3-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0px;
+  }
+
+  .media-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 250px;
+  }
+
+  .feature-section {
+    margin-bottom: 70px;
+  }
+
+  .testimonial-section {
+    margin: 0 10px;
+    grid-row: 2 / span 3;
+    grid-column: 1 / 2;
+    margin-bottom: 75px;
+  }
+
+  .testimonial-photo {
+    grid-row: 1;
+  }
+
+  .testimonial-img {
+    width: 100%;
+  }
+
+  .testimonial-box {
+    grid-row: 2 / span 4;
+    grid-column: 1/ 2;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 75px;
+  }
+
+  body {
+    margin: 0 25px;
+  }
+
+  .links {
+    display: none;
+  }
+  h1 {
+    margin: 0;
+  }
+
+  .grid-2-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+  }
+
+  .grid-3-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+  }
+
+  .feature-section {
+    margin-bottom: 70px;
+  }
+
+  .testimonial-img {
+    width: 100%;
+  }
+
+  .toaster-grid-3 {
+    column-gap: 20px;
+  }
+
+  .toaster {
+    height: 600px;
+  }
+
+  .toaster-img {
+    height: 30%;
+  }
+
+  .toaster-price {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: normal;
+  }
+
+  .toaster-price a:link {
+    text-align: center;
+  }
+}
+
+@media (min-width: 979px) and (max-width: 1199px) {
+  .container {
+    width: 85vw;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 75px;
+  }
+
+  .testimonial-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .toaster-price a:link {
+    text-align: center;
+  }
+
+  .toaster-grid-3 {
+    column-gap: 40px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .container {
+    width: 75vw;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 75px;
+  }
+
+  .testimonial-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .toaster-price a:link {
+    text-align: center;
+  }
+
+  .toaster-grid-3 {
+    column-gap: 40px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    width: 50vw;
+  }
+}
