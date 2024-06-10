@@ -42,6 +42,10 @@
     margin-bottom: 70px;
   }
 
+  .features-text {
+    margin-bottom: 25px;
+  }
+
   .testimonial-section {
     margin: 0 10px;
     grid-row: 2 / span 3;
