@@ -47,6 +47,12 @@
     margin-bottom: 25px;
   }
 
+  .media-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 250px;
+  }
+
   .testimonial-section {
     margin: 0 10px;
     grid-row: 2 / span 3;
@@ -59,8 +65,7 @@
   }
 
   .testimonial-img {
-    width: 400px;
-    height: 100%;
+    width: 100%;
   }
 
   .testimonial-box {
