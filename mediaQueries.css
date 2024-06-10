@@ -28,6 +28,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
     column-gap: 0px;
   }
 
@@ -70,7 +71,7 @@
 
 /* Landscape phone to portrait tablet */
 
-@media (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .container {
     width: 100%;
   }
@@ -96,7 +97,7 @@
   .grid-2-cols {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 250px 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 0px;
   }
 
