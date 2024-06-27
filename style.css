@@ -148,6 +148,9 @@ li:last-child {
 
 /* TESTIMONIAL DESIGN */
 
+.testimonial-img {
+  border-radius: 11px;
+}
 .testimonial-section {
   background-color: #69db7c;
   padding: 16px 24px;
